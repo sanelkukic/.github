@@ -37,8 +37,8 @@ body:
       description: If you have, select Yes and enter the ID number of your pull request in the box below. Otherwise, select No.
       multiple: false
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - type: input
