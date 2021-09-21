@@ -1,0 +1,63 @@
+name: Pull Request Proposal
+description: If you plan on making significant or breaking code contributions to my project(s), choose this option
+title: "[PR Proposal] "
+labels: ["proposal", "newly-submitted"]
+assignees:
+  - sanelk2004
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you wish to contribute code that will affect the core functionality of any of my projects, or code that is "breaking" (significantly changes functionality), then I strongly suggest that you fill out this PR proposal so that we can coordinate your pull request in a more efficient manner.
+  - type: input
+    id: oneliner
+    attributes:
+      label: Brief description of your planned pull request
+      description: Provide a quick one-line summary of what your pull request will change
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Details
+      description: Provide details on what exactly you will change and how. Be as specific as possible, and feel free to provide code samples if needed.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: How will your pull request introduce breaking changes or changes to core functionality?
+      description: Be as specific as possible, feel free to provide code samples if needed.
+    validations:
+      required: true
+  - type: dropdown
+    id: alreadycreated
+    attributes:
+      label: Have you already created your pull request?
+      description: If you have, select Yes and enter the ID number of your pull request in the box below. Otherwise, select No.
+      multiple: false
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: input
+    id: prnumber
+    attributes:
+      label: If you selected Yes above, enter the ID number of your pull request
+      description: If you selected No above, ignore this field.
+      placeholder: ex. 44
+    validations:
+      required: false
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Contributor Guidelines and Code of Conduct
+      description: Before you submit your PR proposal, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelk2004/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
+      options:
+        - label: I have read and agree to the terms of the Contributor Guidelines and Code of Conduct.
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting your PR proposal, and thank you for your interest in contributing to the project! Please give the repository maintainers some time to review your proposal and determine if a pull request is necessary. You will receive an update via a reply to this issue very soon.

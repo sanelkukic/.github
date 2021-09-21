@@ -1,0 +1,45 @@
+name: Feature Suggestion
+description: If you want to suggest a feature, choose this option
+title: "[Feature Suggestion] "
+labels: ["feature-suggestion", "newly-submitted"]
+assignees:
+  - sanelk2004
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out this form to submit a feature suggestion. Depending on my availability and the specifications of your feature suggestion, it may get implemented.
+  - type: input
+    id: contact
+    attributes:
+      label: Your contact information
+      description: Please provide a method of contact that I can use to inform you about the status of your feature suggestion.
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Describe your feature
+      description: Be as detailed and thorough as possible, this will help me understand what you wish for me to add in the program
+    validations:
+      required: true
+  - type: checkboxes
+    id: sponsors
+    attributes:
+      label: Are you sponsoring me on GitHub?
+      description: Users who [sponsor me](https://github.com/sanelk2004/sponsors) enjoy benefits such as quicker response times to issues and access to private repositories. If you do not sponsor me on GitHub, do not tick this box (I can see who sponsors me and who doesn't).
+      options:
+        - label: I am a GitHub Sponsor
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Contributor Guidelines and Code of Conduct
+      description: Before you submit your feature suggestion, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelk2004/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
+      options:
+        - label: I have read and agree to the terms of the Contributor Guidelines and Code of Conduct
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your feature suggestion. I will provide you with an update via your chosen contact method regarding the status of your feature request.

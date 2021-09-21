@@ -1,0 +1,62 @@
+name: Bug Report
+description: If you believe you have found a bug in the program, choose this option.
+title: "[Bug Report] "
+labels: ["bug", "newly-submitted"]
+assignees:
+  - sanelk2004
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following form to the best of your ability. Failure to provide certain information may make it more difficult for me to identify and fix potential bugs.
+  - type: input
+    id: contact
+    attributes:
+      label: Your contact information
+      description: How can I get in touch with you if I need more information about your bug report?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: events
+    attributes:
+      label: Describe your problem
+      description: Provide a thorough description of the bug. Include the exact steps that you took that resulted in the bug occurring.
+      placeholder: Tell me everything that happened
+    validations:
+      required: true
+  - type: textarea
+    id: specs
+    attributes:
+      label: Your hardware configuration
+      description: Please provide details regarding your hardware configuration. This can aid me in determining whether the bug is caused by your hardware configuration or not.
+      placeholder: ex. Windows 10 Home 64-bit, 16 GB DDR4 RAM, 128 GB NVMe SSD, Intel i9-9900K CPU, NVIDIA GeForce RTX 3090 GPU, etc
+    validations:
+      required: true
+  - type: input
+    id: programversion
+    attributes:
+      label: Program version
+      description: Please specify which version of my program you are running and encountering this bug in
+      placeholder: ex. 1.0.0
+    validations:
+      required: true
+  - type: checkboxes
+    id: sponsors
+    attributes:
+      label: GitHub Sponsors
+      description: If you are sponsoring me on GitHub through the [GitHub Sponsors](https://github.com/sponsors/sanelk2004) program, please check this box. Sponsoring me comes with benefits such as quicker response times on your issues, access to private repositories, and exclusive contract work. If you did not explicitly sponsor me on GitHub, do not tick this box.
+      options:
+        - label: I am a GitHub Sponsor
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Contributor Guidelines and Code of Conduct
+      description: Before you submit your bug report, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelk2004/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
+      options:
+        - label: I have read and agree to the terms of the Contributor Guidelines and Code of Conduct
+          required: true
+    - type: markdown
+      attributes:
+        value: |
+          Thank you for your bug report! I will review it as soon as I can and will contact you with further information.

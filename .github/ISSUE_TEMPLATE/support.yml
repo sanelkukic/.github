@@ -1,0 +1,61 @@
+name: Support
+description: If you need support with using the program, choose this option
+title: "[Help Wanted] "
+labels: ["help-wanted"]
+assignees:
+  - sanelk2004
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If you need help with using my software, please complete the form below. Failure to fill out any of the following fields may result in a degraded support experience.
+  - type: input
+    id: contact
+    attributes:
+      label: Your contact information
+      description: Please provide a suitable method that I can use to contact you regarding your support inquiry
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe your issue
+      description: Please describe the problem you are facing in detail, including any solutions you have already attempted.
+    validations:
+      required: true
+  - type: textarea
+    id: specs
+    attributes:
+      label: Your hardware configuration
+      description: Please provide details regarding your hardware configuration. This can aid me in determining whether your issue is caused due to your hardware configuration or not.
+      placeholder: ex. Windows 10 Home 64-bit, 16 GB DDR4 RAM, 128 GB NVMe SSD, Intel i9-9900K CPU, NVIDIA GeForce RTX 3090 GPU, etc
+    validations:
+      required: true
+  - type: input
+    id: programversion
+    attributes:
+      label: Program version
+      description: Please specify which version of my program you are running and encountering this issue in.
+      placeholder: ex. 1.0.0
+    validations:
+      required: true
+  - type: checkboxes
+    id: sponsors
+    attributes:
+      label: GitHub Sponsors
+      description: If you are sponsoring me on GitHub through the [GitHub Sponsors](https://github.com/sponsors/sanelk2004) program, please check this box. Sponsoring me comes with benefits such as quicker response times on your issues, access to private repositories, and exclusive contract work. If you did not explicitly sponsor me on GitHub, do not tick this box.
+      options:
+        - label: Yes, I am a GitHub Sponsor.
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Contributor Agreement and Code of Conduct
+      description: Before you submit your support inquiry, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelk2004/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
+      options:
+        - label: I have read and agree to the terms of the Contributor Guidelines and Code of Conduct.
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting your support inquiry. I will get back to you as soon as possible via the contact method you specified in the form.

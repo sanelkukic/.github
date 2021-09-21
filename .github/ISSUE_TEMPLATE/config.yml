@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Alternative contact methods
+    url: https://sanelkukic.us.eu.org/contact
+    about: If you wish to use an alternative contact method to reach me, you can view a full list on this website.
+  - name: Security Vulnerabilities
+    url: https://sanelkukic.us.eu.org/contact
+    about: If you are a security researcher and wish to report a security vulnerability in any of my software, please visit this website to view methods of contacting me. It is highly recommended that you encrypt your vulnerability report and that you read the Security Policy prior to submitting your report.
