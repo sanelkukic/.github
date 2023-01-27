@@ -8,7 +8,7 @@ I ask that you kindly respect the time of me and the maintainers helping to mana
 
 ## Code of Conduct
 
-I take my open-source projects very seriously, and as such, I kindly ask that you read and adhere to the terms outlined in the [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md). By contributing to any of my open-source projects, you agree that you have read and are willing to uphold the Code of Conduct and these Contributor Guidelines.
+I take my open-source projects very seriously, and as such, I kindly ask that you read and adhere to the terms outlined in the [Code of Conduct](https://github.com/sanelkukic/.github/tree/main/CODE_OF_CONDUCT.md). By contributing to any of my open-source projects, you agree that you have read and are willing to uphold the Code of Conduct and these Contributor Guidelines.
 
 ## Getting Started
 
@@ -16,8 +16,6 @@ There are two primary methods of contributing to any open-source project of mine
 
 - Issues (including bug reports, feature suggestions, and support inquiries)
 - Pull Requests (code contributions)
-
-If you wish to submit a security vulnerability report, please read the [Security Policy](https://github.com/sanelk2004/.github/tree/main/SECURITY.md) and follow the instructions outlined in that document.
 
 If you have never contributed to open-source projects before, that's fine! I will provide you with assistance throughout the entire process to ensure that you learn how to make high-quality, valuable, and effective contributions!
 
@@ -43,7 +41,7 @@ Other than that, when submitting pull requests you should follow these key point
 - Only fix or add the functionality in question. Do not start adding a bunch of features all at once. While I appreciate your dedication and passion to the project, this helps to keep things neat, clean, and easy-to-audit.
 - If a project has a test suite, and your code fixes or changes functionality, please write unit tests for your code as well.
 - Include documentation regarding your code, such as inline code comments, Javadocs, JSDoc, etc.
-- Fill out the [Pull Request Template](https://github.com/sanelk2004/.github/tree/main/PULL_REQUEST_TEMPLATE.md) as thoroughly as possible. This template is automatically loaded when you go to create your pull request.
+- Fill out the [Pull Request Template](https://github.com/sanelkukic/.github/tree/main/PULL_REQUEST_TEMPLATE.md) as thoroughly as possible. This template is automatically loaded when you go to create your pull request.
 
 If you wish to implement changes that would address the core functionality of a program, or changes that would be very significant ("breaking changes"), it is best to open an Issue as a "PR Proposal" to discuss your changes first prior to contributing your code. This can help ensure that there are no headaches later and can help save time creating and reviewing changes.
 
@@ -55,9 +53,3 @@ It is recommended that you familiarize yourself with [Git](https://git-scm.com) 
 - Follow any other formatting and testing guidelines specific to that repo
 - Push your changes to your fork
 - Create a pull request in the original repository owned by me and follow these pull request guidelines.
-
-## Getting help
-
-If you need help with figuring out what to start working on, you can append `/contribute` to the end of any repository URL in your browser's address bar to view open issues that you can contribute to.
-
-If you need help contributing to any of my projects, or if you need help with anything else, read the [Support Guidelines](https://github.com/sanelk2004/.github/tree/main/SUPPORT.md) to learn how to contact me.

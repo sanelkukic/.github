@@ -3,7 +3,7 @@ description: If you believe you have found a bug in the program, choose this opt
 title: "[Bug Report] "
 labels: ["bug", "newly-submitted"]
 assignees:
-  - sanelk2004
+  - sanelkukic
 body:
   - type: markdown
     attributes:
@@ -45,7 +45,7 @@ body:
     id: sponsors
     attributes:
       label: GitHub Sponsors
-      description: If you are sponsoring me on GitHub through the [GitHub Sponsors](https://github.com/sponsors/sanelk2004) program, please check this box. Sponsoring me comes with benefits such as quicker response times on your issues, access to private repositories, and exclusive contract work. If you did not explicitly sponsor me on GitHub, do not tick this box.
+      description: If you are sponsoring me on GitHub through the [GitHub Sponsors](https://github.com/sponsors/sanelkukic) program, please check this box. Sponsoring me comes with benefits such as quicker response times on your issues, access to private repositories, and exclusive contract work. If you did not explicitly sponsor me on GitHub, do not tick this box.
       options:
         - label: I am a GitHub Sponsor
     validations:
@@ -54,7 +54,7 @@ body:
     id: agreement
     attributes:
       label: Contributor Guidelines and Code of Conduct
-      description: Before you submit your bug report, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelk2004/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
+      description: Before you submit your bug report, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelkukic/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelkukic/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
       options:
         - label: I have read and agree to the terms of the Contributor Guidelines and Code of Conduct
           required: true

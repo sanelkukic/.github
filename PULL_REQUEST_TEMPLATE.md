@@ -28,8 +28,8 @@
 
 ### Have you read and agreed to the Contributor Guidelines and Code of Conduct
 
-- [Contributor Guidelines](https://github.com/sanelk2004/.github/tree/main/CONTRIBUTING.md)
-- [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md)
+- [Contributor Guidelines](https://github.com/sanelkukic/.github/tree/main/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/sanelkukic/.github/tree/main/CODE_OF_CONDUCT.md)
 
 - [ ] Yes
 - [ ] No

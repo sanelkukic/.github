@@ -3,7 +3,7 @@ description: If you want to suggest a feature, choose this option
 title: "[Feature Suggestion] "
 labels: ["feature-suggestion", "newly-submitted"]
 assignees:
-  - sanelk2004
+  - sanelkukic
 body:
   - type: markdown
     attributes:
@@ -28,7 +28,7 @@ body:
     id: sponsors
     attributes:
       label: Are you sponsoring me on GitHub?
-      description: Users who [sponsor me](https://github.com/sanelk2004/sponsors) enjoy benefits such as quicker response times to issues and access to private repositories. If you do not sponsor me on GitHub, do not tick this box (I can see who sponsors me and who doesn't).
+      description: Users who [sponsor me](https://github.com/sanelkukic/sponsors) enjoy benefits such as quicker response times to issues and access to private repositories. If you do not sponsor me on GitHub, do not tick this box (I can see who sponsors me and who doesn't).
       options:
         - label: I am a GitHub Sponsor
     validations:
@@ -37,7 +37,7 @@ body:
     id: agreement
     attributes:
       label: Contributor Guidelines and Code of Conduct
-      description: Before you submit your feature suggestion, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelk2004/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelk2004/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
+      description: Before you submit your feature suggestion, please confirm that you have read and agree to the terms of the [Contributor Guidelines](https://github.com/sanelkukic/.github/tree/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/sanelkukic/.github/tree/main/CODE_OF_CONDUCT.md) by ticking the box below.
       options:
         - label: I have read and agree to the terms of the Contributor Guidelines and Code of Conduct
           required: true

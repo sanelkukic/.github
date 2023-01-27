@@ -60,25 +60,11 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement using any of the contact methods listed below.
+reported to the community leaders responsible for enforcement using any contact methods necessary.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.
-
-- Email: [sanelk2004@icloud.com](mailto:sanelk2004@icloud.com)
-    - You may optionally use the PGP key for this email address found at [this link](https://sanelkukic.us.eu.org/.well-known/sanelk2004@icloud.com_pgp.txt) to encrypt your email message.
-    - All emails *sent* from this email address are signed using S/MIME. If you receive an email from this email address that is **not** signed using S/MIME, please report the email via an alternative contact method.
-- XMPP: [ksanel@og.im](xmpp:ksanel@og.im?message)
-    - Feel free to use OMEMO or OTR (Off-the-Record) encryption when submitting your report.
-    - You can also join my XMPP chatroom at [sanel.kukic@conference.og.im](xmpp:sanel.kukic@conference.og.im?join)
-- Matrix: [@sanel.k:halogen.city](https://matrix.to/#/@sanel.k:halogen.city)
-    - Feel free to use your Matrix client's encryption feature to encrypt your report.
-    - You can also join my Matrix chatroom at [#sanel.kukic:halogen.city](https://matrix.to/#/#sanel.kukic:halogen.city)
-- Mastodon: [@sanelkukic@im-in.space](https://im-in.space/@sanelkukic)
-- Twitter: [@idkhow_to_read](https://twitter.com/idkhow_to_read) - you may need to follow me on Twitter first otherwise Twitter will not let you send me a direct message.
-- Discord: `idk_how_to_read#9622`, you can also join my Discord server by [clicking here](https://sanelkukic.us.eu.org/discord)
-- Instagram: [@sanelk2004](https://instagram.com/sanelk2004)
 
 ## Enforcement Guidelines
 
